@@ -1,15 +1,15 @@
-import React from 'react'
-// import Navbar from '../components/Navbar/Navbar'
-// import Footer from '../components/Footer/Footer'
+import React from "react";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
-const Global = ({children}) => {
+const Global = ({ children }) => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       {children}
-      {/* <Footer/>   */}
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Global
+export default Global;
