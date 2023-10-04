@@ -22,19 +22,19 @@ const Router = () => {
     <Routes>
       <Route exact path="/" element={<LandingPage />}></Route>
       <Route exact path="/about-us" element={<AboutUs />}></Route>
-      <Route exact path="/offering" element={<Offering />}></Route>
+      <Route exact path="/services" element={<Offering />}></Route>
       <Route exact path="/sign-in" element={<Protected />}></Route>
       <Route exact path="/team" element={<Team />}></Route>
       <Route exact path="/plans" element={<Plans />}></Route>
-      <Route exact path="/services" element={<Management />}></Route>
+      <Route exact path="/services/:serviceId" element={<Management />}></Route>
       <Route exact path="/blog-single/:blogId" element={<BlogSingle />}></Route>
       <Route exact path="/change-log" element={<ChangeLog />}></Route>
       <Route exact path="/contact-us" element={<ContactUs />}></Route>
-      <Route exact path="/investment" element={<Investment />}></Route>
+      <Route exact path="/projects/:projectId" element={<Investment />}></Route>
       <Route exact path="/license" element={<License />}></Route>
       <Route exact path="/projects" element={<Projects />}></Route>
       <Route exact path="/freq-ques" element={<Questions />}></Route>
-      <Route exact path="/updated" element={<Updated />}></Route>
+      <Route exact path="/blog" element={<Updated />}></Route>
       <Route exact path="/*" element={<NotFound />}></Route>
     </Routes>
   );
