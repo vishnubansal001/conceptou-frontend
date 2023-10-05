@@ -99,7 +99,7 @@ const Navbar = () => {
           <div className="flex lg:hidden">
             <HamBurgerButton isOpen={isOpen} handleClick={handleToggle} />
             <div
-              className={`md:hidden fixed inset-0 bg-black bg-opacity-75 z-50 flex justify-end ${
+              className={`lg:hidden fixed inset-0 bg-black bg-opacity-75 z-[1111] flex justify-end ${
                 isOpen ? "visible" : "invisible"
               }`}
               onClick={handleToggle}

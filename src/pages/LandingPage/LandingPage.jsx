@@ -1,7 +1,9 @@
 import React from "react";
 import {
   BuisenessPlan,
+  Grow,
   HeroSection,
+  Projects,
   Solutions,
 } from "../../containers/LandingPage";
 
@@ -11,6 +13,8 @@ const LandingPage = () => {
       <HeroSection />
       <BuisenessPlan />
       <Solutions />
+      <Grow />
+      <Projects />
     </>
   );
 };
