@@ -8,9 +8,10 @@ import ex from "../assets/ex.png";
 import cpu from "../assets/cpu.png";
 import code from "../assets/code.png";
 import graph from "../assets/graph.png";
-import stars from "../assets/stars.svg";
 import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
+import news1 from "../assets/news1.png";
+import news2 from "../assets/news2.png";
 
 export const pages = [
   {
@@ -172,5 +173,30 @@ export const appoint = [
     name: "Evaluation",
     text1: "Leverage agile frameworks to provide synopsis for high",
     text2: " level overviews Iterative.",
+  },
+];
+
+export const news = [
+  {
+    img: news1,
+    name1: "A Business Consulting That Can",
+    name2: "Produce",
+    date: "April 13/ 2021",
+    by: "Miranda Doe",
+    for: "Business",
+    text1: "Leverage agile frameworks to provide a robust synopsis for high",
+    text2: "level overviews.Iterative approaches to corporate strategy foster",
+    text3: "collaborative thinking.",
+  },
+  {
+    img: news2,
+    name1: "Team Identifiers, Benefits, and How ",
+    name2: "to Build One that Works",
+    date: "April 13/ 2021",
+    by: "Miranda Doe",
+    for: "Business",
+    text1: "Leverage agile frameworks to provide a robust synopsis for high",
+    text2: "level overviews.Iterative approaches to corporate strategy foster",
+    text3: "collaborative thinking.",
   },
 ];

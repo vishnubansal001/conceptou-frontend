@@ -74,7 +74,7 @@ const Appointment = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col justify-start items-start gap-5 md:w-[60%]">
+        <div className="flex flex-col justify-start items-start md:items-center gap-5 md:w-[80%] mx-auto">
           <p className="lg:text-lg md:text-base text-sm font-normal">
             Book Now
           </p>
@@ -88,7 +88,7 @@ const Appointment = () => {
           </div>
           <form
             action=""
-            className="flex flex-col justify-start items-start bg-white gap-4 w-[60%] p-4"
+            className="flex flex-col justify-start items-start bg-white gap-4 md:w-[60%] p-4"
           >
             <input
               className="border-[#dddddd] border-[1px] w-full px-3 py-2 bg-[#f8f8f8] text-black outline-none placeholder:text-[#37393F]"

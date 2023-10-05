@@ -2,8 +2,10 @@ import React from "react";
 import {
   Appointment,
   BuisenessPlan,
+  Experienced,
   Grow,
   HeroSection,
+  Posts,
   Projects,
   Solutions,
   Team,
@@ -21,6 +23,8 @@ const LandingPage = () => {
       <Testimonials />
       <Appointment />
       <Team />
+      <Posts />
+      <Experienced />
     </>
   );
 };
