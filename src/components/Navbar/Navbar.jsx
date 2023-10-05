@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center w-full py-8 md:px-16 px-4">
-        <div className="flex flex-row md:justify-around justify-between w-full">
+        <div className="flex flex-row md:justify-around justify-between w-full gap-8">
           <div
             className="flex flex-col justify-center items-center cursor-pointer select-none"
             onClick={() => navigate("/")}
@@ -76,7 +76,7 @@ const Navbar = () => {
                       {item?.dropDown.map((i, ind) => (
                         <p
                           key={ind}
-                          className={`text-lg text-[#37393F] font-semibold select-none cursor-pointer ${
+                          className={`text-lg text-[#37393F] font-semibold select-none cursor-pointer hover:bg-gray-200 ${
                             ind !== item.dropDown.length - 1 &&
                             "border-b-2 border-b-[#37393F] pb-1"
                           }`}

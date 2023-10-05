@@ -104,7 +104,7 @@ const BuisenessPlan = () => {
                 </div>
               </div>
             </div>
-            <div className="p-3 border-2 border-[#E3E3E3] w-52 hover:bg-[#E3E3E3] transition-all duration-300 ease-in-out cursor-pointer">
+            <div className="p-3 border-2 border-[#E3E3E3] min-w-[13rem] hover:bg-[#E3E3E3] transition-all duration-300 ease-in-out cursor-pointer">
               <img src={awards} alt="" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <h1 className="font-semibold md:text-lg text-base">

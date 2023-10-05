@@ -1,11 +1,16 @@
 import React from "react";
-import { BuisenessPlan, HeroSection } from "../../containers/LandingPage";
+import {
+  BuisenessPlan,
+  HeroSection,
+  Solutions,
+} from "../../containers/LandingPage";
 
 const LandingPage = () => {
   return (
     <>
       <HeroSection />
       <BuisenessPlan />
+      <Solutions />
     </>
   );
 };
