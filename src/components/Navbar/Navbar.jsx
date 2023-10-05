@@ -71,7 +71,7 @@ const Navbar = () => {
                   {item.dropDown && item.dropDown.length > 0 && (
                     <ul
                       tabIndex={0}
-                      className="dropdown-content z-[1] menu px-4 py-3 shadow bg-base-100 rounded-box w-52"
+                      className="dropdown-content z-[999] menu px-4 py-3 shadow bg-base-100 rounded-box w-52"
                     >
                       {item?.dropDown.map((i, ind) => (
                         <p
@@ -117,7 +117,11 @@ const Navbar = () => {
                 </div>
                 <ul>
                   {responsiveData?.map((item, ind) => (
-                    <p key={ind} className="text-lg text-[#37393F] font-semibold select-none cursor-pointer" onClick={() => navigate(`${item.link}`)}>
+                    <p
+                      key={ind}
+                      className="text-lg text-[#37393F] font-semibold select-none cursor-pointer"
+                      onClick={() => navigate(`${item.link}`)}
+                    >
                       {item.name}
                     </p>
                   ))}
