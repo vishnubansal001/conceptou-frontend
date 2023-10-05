@@ -122,10 +122,10 @@ const BuisenessPlan = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
-              <button className="capitalize text-lg text-[#fff] font-semibold bg-[#6B77E5] hover:bg-[#5f66a8] transition-all duration-300 ease-in-out px-4 py-4">
-                more about us
-              </button>
-            </div>
+            <button className="capitalize text-lg text-[#fff] font-semibold bg-[#6B77E5] hover:bg-[#5f66a8] transition-all duration-300 ease-in-out px-4 py-4">
+              more about us
+            </button>
+          </div>
         </div>
       </div>
     </section>

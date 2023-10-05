@@ -1,10 +1,13 @@
 import React from "react";
 import {
+  Appointment,
   BuisenessPlan,
   Grow,
   HeroSection,
   Projects,
   Solutions,
+  Team,
+  Testimonials,
 } from "../../containers/LandingPage";
 
 const LandingPage = () => {
@@ -15,6 +18,9 @@ const LandingPage = () => {
       <Solutions />
       <Grow />
       <Projects />
+      <Testimonials />
+      <Appointment />
+      <Team />
     </>
   );
 };

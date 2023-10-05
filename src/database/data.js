@@ -8,6 +8,9 @@ import ex from "../assets/ex.png";
 import cpu from "../assets/cpu.png";
 import code from "../assets/code.png";
 import graph from "../assets/graph.png";
+import stars from "../assets/stars.svg";
+import p1 from "../assets/p1.png";
+import p2 from "../assets/p2.png";
 
 export const pages = [
   {
@@ -136,5 +139,38 @@ export const solutions = [
     name1: "Financial &",
     name2: "Insurance jobs",
     img: ex,
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Nattasha Kelvin",
+    position: "Designer",
+    text: "dd an excerpt from your personal biography, or simply let the world know who you are and what you have to offer. Connect with your site visitor's on a personal level and make sure that your site.",
+    img: p1,
+  },
+  {
+    name: "Cincinnati",
+    position: "Designer",
+    text: "Leverage agile frameworks to provide a robust synopsis for high level overviews",
+    img: p2,
+  },
+];
+
+export const appoint = [
+  {
+    name: "Planning",
+    text1: "Leverage agile frameworks to provide synopsis for high",
+    text2: " level overviews.",
+  },
+  {
+    name: "Briefing",
+    text1: "Leverage agile frameworks to provide synopsis for high",
+    text2: " level  approaches ",
+  },
+  {
+    name: "Evaluation",
+    text1: "Leverage agile frameworks to provide synopsis for high",
+    text2: " level overviews Iterative.",
   },
 ];
