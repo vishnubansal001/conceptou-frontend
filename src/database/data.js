@@ -32,6 +32,7 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import plansbg from "../assets/plansbg.png";
 
 export const pages = [
   {
@@ -316,6 +317,13 @@ export const projectsHero = {
   title2: "Investment",
 };
 
+export const plansHero = {
+  img: plansbg,
+  text: "Pricing Package",
+  title1: "Affordable Plans",
+  title2: "For Customers",
+};
+
 export const ques_ans = [
   {
     name: "Main Questions",
@@ -457,5 +465,55 @@ export const project = [
     name: "Financial Investment",
     date: "Sep 2022",
     img: project6,
+  },
+];
+
+export const plans = [
+  {
+    checked: false,
+    name: "Basic",
+    price: "$7.99 / month",
+    bile: "Billed as $96 per year",
+    text: [
+      "Unlimited members",
+      "Unlimited feedback",
+      "Weekly team Feedback Friday",
+      "Custom Kudos +9 illustration",
+      "Team feedback history (30 items)",
+      "Personal feedback",
+    ],
+    btn: "Get Started",
+  },
+  {
+    checked: true,
+    name: "Advanced",
+    price: "$9.99 / month",
+    bile: "Billed as $199 per year",
+    text: [
+      "Unlimited members",
+      "Unlimited feedback",
+      "Weekly team Feedback Friday",
+      "Custom Kudos +9 illustration",
+      "Team feedback history (30 items)",
+      "Personal feedback history (6 items)",
+      "Slack integration",
+    ],
+    btn: "Get Started",
+  },
+  {
+    checked: false,
+    name: "Pro",
+    price: "$9.99 / month",
+    bile: "Billed as $199 per year",
+    text: [
+      "Unlimited members",
+      "Unlimited feedback",
+      "Weekly team Feedback Friday",
+      "Custom Kudos +9 illustration",
+      "Team feedback history (30 items)",
+      "Personal feedback history (6 items)",
+      "Slack integration",
+    ],
+    btn: "Get Started",
   },
 ];
