@@ -200,3 +200,36 @@ export const news = [
     text3: "collaborative thinking.",
   },
 ];
+
+export const footers = [
+  {
+    name: "Quick Link",
+    pages: [
+      { name: "Home" },
+      { name: "About Us" },
+      { name: "Blog" },
+      { name: "Services" },
+      { name: "Contact" },
+    ],
+  },
+  {
+    name: "Our Services",
+    pages: [
+      { name: "Financial Consulting" },
+      { name: "Business Management" },
+      { name: "Consultant & Programs" },
+      { name: "Company Management" },
+      { name: "Insurance & Finance" },
+    ],
+  },
+  {
+    name: "Utility Pages",
+    pages: [
+      { name: "Style Guide" },
+      { name: "Licenses" },
+      { name: "Instructions" },
+      { name: "Changelog" },
+      { name: "404 Page" },
+    ],
+  },
+];
