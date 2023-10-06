@@ -13,9 +13,11 @@ const HeroSection = ({ img, text, title1, title2 }) => {
             <h1 className="lg:text-5xl font-bold md:text-3xl sm:text-xl text-lg">
               {title1}
             </h1>
-            <h1 className="lg:text-5xl font-bold md:text-3xl sm:text-xl text-lg">
-              {title2}
-            </h1>
+            {title2 && (
+              <h1 className="lg:text-5xl font-bold md:text-3xl sm:text-xl text-lg">
+                {title2}
+              </h1>
+            )}
           </div>
         </div>
       </div>

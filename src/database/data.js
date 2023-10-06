@@ -13,6 +13,7 @@ import p2 from "../assets/p2.png";
 import news1 from "../assets/news1.png";
 import news2 from "../assets/news2.png";
 import freqbg from "../assets/freqbg.png";
+import contactbg from '../assets/contactbg.png';
 
 export const pages = [
   {
@@ -240,6 +241,12 @@ export const freq = {
   text: "Quick Solution",
   title1: "Frequently Asked",
   title2: "Questions",
+};
+
+export const contact = {
+  img: contactbg,
+  text: "Contact Us",
+  title1: "Feel Free Reach Us",
 };
 
 export const ques_ans = [
