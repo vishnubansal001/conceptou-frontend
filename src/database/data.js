@@ -39,6 +39,12 @@ import about1 from "../assets/about1.jpg";
 import w1 from "../assets/w1.png";
 import w2 from "../assets/w2.png";
 import w3 from "../assets/w3.png";
+import serv1 from "../assets/serv1.png";
+import servsin1 from "../assets/servsin1.png";
+import { SlScreenDesktop } from "react-icons/sl";
+import { GiThermometerScale } from "react-icons/gi";
+import { BiServer } from "react-icons/bi";
+import { MdContentPasteSearch } from "react-icons/md";
 
 export const pages = [
   {
@@ -336,6 +342,19 @@ export const aboutHero = {
   title1: "Know About Us",
 };
 
+export const serviceHero = {
+  img: serv1,
+  text: "Our Services",
+  title1: "We’re Offering",
+};
+
+export const serviceSingleHero = {
+  img: servsin1,
+  text: "About The Services",
+  title1: "Business",
+  title2: "Management",
+};
+
 export const ques_ans = [
   {
     name: "Main Questions",
@@ -569,5 +588,36 @@ export const works = [
     name: "Enjoy the Service",
     text: "Leverage agile frameworks provide synopsishigh level overviews value proposition. ",
     t: "Testimonials",
+  },
+];
+
+export const customers = [
+  {
+    img: <SlScreenDesktop size={40} className="text-xl text-[#40DDB6]" />,
+    title1: "Product",
+    title2: "development",
+    p1: "level overviews",
+    p2: "proposition",
+  },
+  {
+    img: <GiThermometerScale size={40} className="text-xl text-[#40DDB6]" />,
+    title1: "UI/UX",
+    title2: "designing",
+    p1: "level overviews",
+    p2: "proposition",
+  },
+  {
+    img: <BiServer size={40} className="text-xl text-[#40DDB6]" />,
+    title1: "Data",
+    title2: "analysis",
+    p1: "level overviews",
+    p2: "proposition",
+  },
+  {
+    img: <MdContentPasteSearch size={40} className="text-xl text-[#40DDB6]" />,
+    title1: "Content",
+    title2: "management",
+    p1: "level overviews",
+    p2: "proposition",
   },
 ];
