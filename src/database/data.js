@@ -24,6 +24,14 @@ import jonathan from "../assets/jonathan.png";
 import natasha from "../assets/natasha.png";
 import wanda from "../assets/wanda.png";
 import newsbg from "../assets/newsbg.png";
+import projectsbg from "../assets/projectbg.png";
+import projects1bg from "../assets/project1bg.png";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 export const pages = [
   {
@@ -294,6 +302,20 @@ export const newsHero = {
   title2: "Updated",
 };
 
+export const projects1Hero = {
+  img: projects1bg,
+  text: "The Case Studies",
+  title1: "Our Latest",
+  title2: "Projects",
+};
+
+export const projectsHero = {
+  img: projectsbg,
+  text: "LT Techs",
+  title1: "Financial",
+  title2: "Investment",
+};
+
 export const ques_ans = [
   {
     name: "Main Questions",
@@ -402,5 +424,38 @@ export const experts = [
     name: "Austin	Randall",
     pos: "Marketing Specialist",
     img: austin,
+  },
+];
+
+export const project = [
+  {
+    name: "Financial Investment",
+    date: "Sep 2022",
+    img: project1,
+  },
+  {
+    name: "Marketing Strategy",
+    date: "Sep 2022",
+    img: project2,
+  },
+  {
+    name: "Business Consulting",
+    date: "Sep 2022",
+    img: project3,
+  },
+  {
+    name: "Financial Investment",
+    date: "Sep 2022",
+    img: project4,
+  },
+  {
+    name: "Web Development",
+    date: "Sep 2022",
+    img: project5,
+  },
+  {
+    name: "Financial Investment",
+    date: "Sep 2022",
+    img: project6,
   },
 ];

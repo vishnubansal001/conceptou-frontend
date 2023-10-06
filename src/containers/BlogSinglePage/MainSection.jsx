@@ -8,7 +8,7 @@ const MainSection = ({ ind }) => {
       <div className="flex flex-col justify-center items-center ">
         <div className="relative flex flex-col justify-center items-center w-full h-auto">
           <img
-            src={news[ind].img} // Replace with your actual image URL
+            src={news[ind].img}
             alt="Sample"
             className="w-full max-h-[80vh] h-auto"
           />

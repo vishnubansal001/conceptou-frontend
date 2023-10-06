@@ -30,7 +30,7 @@ const Router = () => {
       <Route exact path="/blog-single/:blogId" element={<BlogSingle />}></Route>
       <Route exact path="/change-log" element={<ChangeLog />}></Route>
       <Route exact path="/contact-us" element={<ContactUs />}></Route>
-      <Route exact path="/projects/:projectId" element={<Investment />}></Route>
+      <Route exact path="/project-single/:projectId" element={<Investment />}></Route>
       <Route exact path="/license" element={<License />}></Route>
       <Route exact path="/projects" element={<Projects />}></Route>
       <Route exact path="/freq-ques" element={<Questions />}></Route>
