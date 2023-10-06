@@ -3,11 +3,20 @@ import { experts } from "../../database/data";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsPinterest } from "react-icons/bs";
 
-const Experts = () => {
+const Experts = ({ about }) => {
+  const expes = about ? experts.slice(0, 3) : experts;
   return (
     <section className="flex flex-col justify-center items-center select-none h-full py-20">
+      {about && (
+        <div className="flex flex-col justify-center items-center gap-2 pb-14">
+          <p className="md:text-base text-sm font-normal">Our Team</p>
+          <h1 className="lg:text-5xl font-bold md:text-3xl sm:text-xl text-lg">
+            Meet Our Experts
+          </h1>
+        </div>
+      )}
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 gap-y-7 lg:px-20 px-10">
-        {experts?.map((item, ind) => (
+        {expes?.map((item, ind) => (
           <div
             key={ind}
             className="w-[350px] h-[450px] bg-cover bg-center"

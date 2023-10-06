@@ -33,6 +33,12 @@ import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import plansbg from "../assets/plansbg.png";
+import aboutbg from "../assets/aboutbg.jpg";
+import expe from "../assets/expe.jpg";
+import about1 from "../assets/about1.jpg";
+import w1 from "../assets/w1.png";
+import w2 from "../assets/w2.png";
+import w3 from "../assets/w3.png";
 
 export const pages = [
   {
@@ -324,6 +330,12 @@ export const plansHero = {
   title2: "For Customers",
 };
 
+export const aboutHero = {
+  img: aboutbg,
+  text: "About Us",
+  title1: "Know About Us",
+};
+
 export const ques_ans = [
   {
     name: "Main Questions",
@@ -515,5 +527,47 @@ export const plans = [
       "Slack integration",
     ],
     btn: "Get Started",
+  },
+];
+
+export const homeExp = {
+  img: expe,
+  white: "Whitecollar",
+  title1: "Need An Experienced",
+  title2: "job Service? Contact Us",
+  p1: "Leverage agile frameworks to provide a robust synopsis for high level ",
+  p2: "overviews.Iterative approaches to corporate strategy foster collaborative",
+  p3: "thinkingfurther the overal.",
+  btn: "Get Started",
+  text: "Subscribe Whitecollar",
+};
+
+export const aboutExp = {
+  about: true,
+  img: about1,
+  title1: "Our Presentation",
+  p1: "Collaboratively administrate channels whereas virtual tailers",
+  p2: "predominate procedures reliable supply chains",
+  text: "Short Video",
+};
+
+export const works = [
+  {
+    img: w1,
+    name: "Make Appointment",
+    text: "Leverage agile frameworks provide synopsishigh level overviews value proposition. ",
+    t: "Testimonials",
+  },
+  {
+    img: w2,
+    name: "Consultation",
+    text: "Leverage agile frameworks provide synopsishigh level overviews value proposition. ",
+    t: "Testimonials",
+  },
+  {
+    img: w3,
+    name: "Enjoy the Service",
+    text: "Leverage agile frameworks provide synopsishigh level overviews value proposition. ",
+    t: "Testimonials",
   },
 ];

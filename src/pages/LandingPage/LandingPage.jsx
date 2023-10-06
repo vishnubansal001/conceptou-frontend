@@ -11,6 +11,7 @@ import {
   Team,
   Testimonials,
 } from "../../containers/LandingPage";
+import { homeExp } from "../../database/data";
 
 const LandingPage = () => {
   return (
@@ -24,7 +25,7 @@ const LandingPage = () => {
       <Appointment />
       <Team />
       <Posts />
-      <Experienced />
+      <Experienced data={homeExp} />
     </>
   );
 };
