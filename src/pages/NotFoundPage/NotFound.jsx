@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { MainSection } from "../../containers/NotFoundPage";
 
 const NotFound = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <MainSection />
+    </>
+  );
+};
 
-export default NotFound
+export default NotFound;

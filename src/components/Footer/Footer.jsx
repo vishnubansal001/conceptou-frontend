@@ -9,7 +9,7 @@ import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-start items-start select-none h-full bg-[#37393F] text-white mt-10">
+    <footer className="flex flex-col justify-start items-start select-none h-full bg-[#37393F] text-white">
       <div className="flex flex-col w-full md:px-20 px-10 py-10 gap-y-10">
         <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pb-7 border-b-2 border-b-[#6C6D72]">
           <div className="lg:col-span-2 col-span-1">
