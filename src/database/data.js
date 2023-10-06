@@ -12,6 +12,7 @@ import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
 import news1 from "../assets/news1.png";
 import news2 from "../assets/news2.png";
+import freqbg from "../assets/freqbg.png";
 
 export const pages = [
   {
@@ -232,4 +233,89 @@ export const footers = [
       { name: "404 Page" },
     ],
   },
+];
+
+export const freq = {
+  img: freqbg,
+  text: "Quick Solution",
+  title1: "Frequently Asked",
+  title2: "Questions",
+};
+
+export const ques_ans = [
+  {
+    name: "Main Questions",
+    ques_ans: [
+      {
+        ques: "How does our pricing works ?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "What Types Of Companies Do You Work With?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "Do You Offer Volume Or Loyalty Discounts?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+    ],
+  },
+  {
+    name: "Common Queries",
+    ques_ans: [
+      {
+        ques: "How does our pricing works ?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "Do You Offer Volume Or Loyalty Discounts?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "What Types Of Companies Do You Work With?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+    ],
+  },
+  {
+    name: "General Questions",
+    ques_ans: [
+      {
+        ques: "What Types Of Companies Do You Work With?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "Do You Offer Volume Or Loyalty Discounts?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "How does our pricing works ?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+    ],
+  },
+  {
+    name: "Legal information",
+    ques_ans: [
+      {
+        ques: "What Types Of Companies Do You Work With?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "How does our pricing works ?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+      {
+        ques: "Do You Offer Volume Or Loyalty Discounts?",
+        ans: "Objectively innovated empowered manufactured products where as parallel holisticly predominat extensible testing procedures reliable supply chains dramatically engage top-line web services vis-a-vis cutting-edge deliverables.",
+      },
+    ],
+  },
+];
+
+export const buttons = [
+  "Main Questions",
+  "Common Queries",
+  "General Questions",
+  "Legal information",
 ];
