@@ -1,27 +1,48 @@
 import React from "react";
 import { news } from "../../database/data";
 
-const Posts = () => {
+const Posts = ({ blog }) => {
+  const new1 = blog ? news : news.slice(0, 2);
   return (
     <section className="flex flex-col justify-start items-start select-none h-full">
       <div className="flex flex-col justify-center items-center gap-10 py-10 w-full lg:px-20 px-10">
-        <div className="flex sm:flex-row flex-col sm:justify-between justify-center items-center w-full gap-5">
-          <div className="flex flex-col justify-start items-start gap-2">
-            <p className="lg:text-lg md:text-base text-sm font-normal">
-              Our Recent News
-            </p>
-            <h1 className="lg:text-4xl font-bold md:text-2xl text-lg">
-              Latest Posts
-            </h1>
-          </div>
-          <div className="flex flex-col justify-center items-center">
-            <button className="capitalize text-lg text-[#fff] font-semibold bg-[#37393F] hover:bg-[#48494a] transition-all duration-300 ease-in-out px-8 py-4">
-              more news
-            </button>
-          </div>
+        <div
+          className={`flex ${
+            blog
+              ? "flex-col justify-center items-center gap-4"
+              : "sm:flex-row flex-col sm:justify-between justify-center items-center"
+          } w-full gap-5`}
+        >
+          {!blog && (
+            <>
+              <div className="flex flex-col justify-start items-start gap-2">
+                <p className="lg:text-lg md:text-base text-sm font-normal">
+                  Our Recent News
+                </p>
+                <h1 className="lg:text-4xl font-bold md:text-2xl text-lg">
+                  Latest Posts
+                </h1>
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <button className="capitalize text-lg text-[#fff] font-semibold bg-[#37393F] hover:bg-[#48494a] transition-all duration-300 ease-in-out px-8 py-4">
+                  more news
+                </button>
+              </div>
+            </>
+          )}
+          {blog && (
+            <div className="flex flex-col justify-center items-center gap-2 pb-6">
+              <p className="md:text-base text-sm font-normal">
+                Our Recent News
+              </p>
+              <h1 className="lg:text-5xl font-bold md:text-3xl sm:text-xl text-lg">
+                Featured News And Insights
+              </h1>
+            </div>
+          )}
         </div>
-        <div className="flex md:flex-row flex-col gap-x-12 gap-y-5">
-          {news?.map((item, ind) => (
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-x-12 gap-y-10">
+          {new1?.map((item, ind) => (
             <div
               key={ind}
               className="flex flex-col justify-start items-start gap-4"

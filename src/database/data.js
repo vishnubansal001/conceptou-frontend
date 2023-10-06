@@ -12,6 +12,8 @@ import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
 import news1 from "../assets/news1.png";
 import news2 from "../assets/news2.png";
+import news3 from "../assets/news3.png";
+import news4 from "../assets/news4.png";
 import freqbg from "../assets/freqbg.png";
 import contactbg from "../assets/contactbg.png";
 import teambg from "../assets/teambg.png";
@@ -21,6 +23,7 @@ import david from "../assets/david.png";
 import jonathan from "../assets/jonathan.png";
 import natasha from "../assets/natasha.png";
 import wanda from "../assets/wanda.png";
+import newsbg from "../assets/newsbg.png";
 
 export const pages = [
   {
@@ -208,6 +211,28 @@ export const news = [
     text2: "level overviews.Iterative approaches to corporate strategy foster",
     text3: "collaborative thinking.",
   },
+  {
+    img: news3,
+    name1: "What are backlinks and Why They ",
+    name2: "are Important",
+    date: "April 13/ 2021",
+    by: "Miranda Doe",
+    for: "Business",
+    text1: "Leverage agile frameworks to provide a robust synopsis for high",
+    text2: "level overviews.Iterative approaches to corporate strategy foster",
+    text3: "collaborative thinking.",
+  },
+  {
+    img: news4,
+    name1: "Importance of Keyword Research in ",
+    name2: "a Blog",
+    date: "April 13/ 2021",
+    by: "Miranda Doe",
+    for: "Business",
+    text1: "Leverage agile frameworks to provide a robust synopsis for high",
+    text2: "level overviews.Iterative approaches to corporate strategy foster",
+    text3: "collaborative thinking.",
+  },
 ];
 
 export const footers = [
@@ -260,6 +285,13 @@ export const team = {
   img: teambg,
   text: "Our Team",
   title1: "Meet Our Experts",
+};
+
+export const newsHero = {
+  img: newsbg,
+  text: "Recent News",
+  title1: "We Keep You",
+  title2: "Updated",
 };
 
 export const ques_ans = [
