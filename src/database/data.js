@@ -13,7 +13,14 @@ import p2 from "../assets/p2.png";
 import news1 from "../assets/news1.png";
 import news2 from "../assets/news2.png";
 import freqbg from "../assets/freqbg.png";
-import contactbg from '../assets/contactbg.png';
+import contactbg from "../assets/contactbg.png";
+import teambg from "../assets/teambg.png";
+import austin from "../assets/austin.png";
+import madeleine from "../assets/madeleine.png";
+import david from "../assets/david.png";
+import jonathan from "../assets/jonathan.png";
+import natasha from "../assets/natasha.png";
+import wanda from "../assets/wanda.png";
 
 export const pages = [
   {
@@ -249,6 +256,12 @@ export const contact = {
   title1: "Feel Free Reach Us",
 };
 
+export const team = {
+  img: teambg,
+  text: "Our Team",
+  title1: "Meet Our Experts",
+};
+
 export const ques_ans = [
   {
     name: "Main Questions",
@@ -325,4 +338,37 @@ export const buttons = [
   "Common Queries",
   "General Questions",
   "Legal information",
+];
+
+export const experts = [
+  {
+    name: "Nattasha Kelvin",
+    pos: "Managing Director",
+    img: natasha,
+  },
+  {
+    name: "David	Simpson",
+    pos: "Designer",
+    img: david,
+  },
+  {
+    name: "Madeleine	Grant",
+    pos: "Marketing Specialist",
+    img: madeleine,
+  },
+  {
+    name: "Jonathan	Coleman",
+    pos: "Managing Director",
+    img: jonathan,
+  },
+  {
+    name: "Wanda	Forsyth",
+    pos: "Designer",
+    img: wanda,
+  },
+  {
+    name: "Austin	Randall",
+    pos: "Marketing Specialist",
+    img: austin,
+  },
 ];
