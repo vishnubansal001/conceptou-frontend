@@ -6,7 +6,6 @@ import Offering from "../pages/OfferingPage/Offering";
 import Protected from "../pages/ProtectedPage/Protected";
 import Team from "../pages/TeamPage/Team";
 import Plans from "../pages/PlansPage/Plans";
-import Management from "../pages/ManagementPage/Management";
 import BlogSingle from "../pages/BlogSinglePage/BlogSingle";
 import ChangeLog from "../pages/ChangeLogPage/ChangeLog";
 import ContactUs from "../pages/ContactUsPage/ContactUs";
@@ -26,7 +25,6 @@ const Router = () => {
       <Route exact path="/sign-in" element={<Protected />}></Route>
       <Route exact path="/team" element={<Team />}></Route>
       <Route exact path="/plans" element={<Plans />}></Route>
-      <Route exact path="/services/:serviceId" element={<Management />}></Route>
       <Route exact path="/blog-single/:blogId" element={<BlogSingle />}></Route>
       <Route exact path="/change-log" element={<ChangeLog />}></Route>
       <Route exact path="/contact-us" element={<ContactUs />}></Route>
